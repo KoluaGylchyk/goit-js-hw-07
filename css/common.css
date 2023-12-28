@@ -14,10 +14,17 @@ body {
 }
 
 .gallery {
+  list-style: none;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .gallery-item {
-  width: 2250px;
+  margin-bottom: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
 }
